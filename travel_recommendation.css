@@ -1,0 +1,62 @@
+nav {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    font-size: large;
+}
+
+nav h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("travel_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home:hover {
+    text-decoration: underline;
+}
+
+#aboutUs:hover {
+    text-decoration: underline;
+}
+
+#contactUs:hover {
+    text-decoration: underline;
+}
+
+.titleDescription {
+    color: yellow;
+    padding-left: 30%;
+    font-style: oblique;
+    font-size: 30;
+}
+
+.description {
+    color: yellow;
+    padding-left: 30%;
+    font-style: oblique;
+    font-size: 25;
+}
