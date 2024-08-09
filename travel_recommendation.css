@@ -50,13 +50,15 @@ body {
 .titleDescription {
     color: yellow;
     padding-left: 30%;
+    padding-right: 40%;
     font-style: oblique;
-    font-size: 30;
+    font-size: 60;
 }
 
 .description {
     color: yellow;
     padding-left: 30%;
+    padding-right: 40%;
     font-style: oblique;
-    font-size: 25;
+    font-size: 40;
 }
