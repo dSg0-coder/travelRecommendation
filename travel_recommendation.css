@@ -125,3 +125,19 @@ body {
     color: lightblue;
     border: 2px solid lightblue
 }
+
+.destinationInput {
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    color: lightblue;
+}
+
+::placeholder {
+    color: lightblue;
+    opacity: 1; /* Firefox */
+  }
+
+*:focus {
+    outline: none;
+}
