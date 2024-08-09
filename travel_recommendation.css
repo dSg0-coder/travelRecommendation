@@ -141,3 +141,33 @@ body {
 *:focus {
     outline: none;
 }
+
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+}
+
+.row {
+    padding-left: 30%;
+    color: darkblue;
+}
+
+.ourTeam {
+    padding-left: 30%;
+    color: darkblue;
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 lightblue;
+}
+  
+  /* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: darkblue;
+}
