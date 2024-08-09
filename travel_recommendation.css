@@ -5,7 +5,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    font-size: large;
+    font-size: 20px;
 }
 
 nav h1 {
@@ -61,4 +61,67 @@ body {
     padding-right: 40%;
     font-style: oblique;
     font-size: 40;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+    background: lightblue;
+    color: white;
+  }
+
+.social_media {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.social_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social_links li {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: lightblue;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white
+}
+
+.button:hover {
+    background-color: white;
+    color: lightblue;
+    border: 2px solid lightblue
 }
