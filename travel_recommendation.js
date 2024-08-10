@@ -13,7 +13,11 @@ function searchDestination() {
         switch (input) {
             case 'count':
                 data.countries.forEach(country => {
-                    console.log(country.name)
+                    country.cities.forEach(city => {
+                        resultDiv.innerHTML += `<h2>${city.name}</h2>`
+                        resultDiv.innerHTML += `<img src="${city.imageUrl}" alt="${city.name}">`;
+                        resultDiv.innerHTML += `<p>${city.description}</p>`;    
+                    })
                 });
                 break;
             case 'templ':
