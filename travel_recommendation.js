@@ -18,12 +18,16 @@ function searchDestination() {
                 break;
             case 'templ':
                 data.temples.forEach(temple => {
-                    console.log(temple.name)
+                    resultDiv.innerHTML += `<h2>${temple.name}</h2>`
+                    resultDiv.innerHTML += `<img src="${temple.imageUrl}" alt="${temple.name}">`;
+                    resultDiv.innerHTML += `<p>${temple.description}</p>`;
                 });
                 break;
             case 'beach':
                 data.beaches.forEach(beach => {
-                    console.log(beach.name)
+                    resultDiv.innerHTML += `<h2>${beach.name}</h2>`
+                    resultDiv.innerHTML += `<img src="${beach.imageUrl}" alt="${beach.name}">`;
+                    resultDiv.innerHTML += `<p>${beach.description}</p>`;
                 });
                 break;
             default:
@@ -54,7 +58,10 @@ function searchDestination() {
     });
 }
 
-function clearSearch() {}
+function clearSearch() {
+    const resultDiv = document.getElementById('result');
+    resultDiv.innerHTML = '';
+}
 
 btnSearch.addEventListener('click', searchDestination);
 btnReset.addEventListener('click', clearSearch);
