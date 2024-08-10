@@ -52,7 +52,7 @@ body {
     padding-left: 30%;
     padding-right: 40%;
     font-style: oblique;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .description {
@@ -60,7 +60,7 @@ body {
     padding-left: 30%;
     padding-right: 40%;
     font-style: oblique;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .titleDescriptionAboutUs {
@@ -77,19 +77,6 @@ body {
     padding-right: 40%;
     font-style: oblique;
     font-size: 17px;
-}
-
-.contactForm {
-    color: darkblue;
-    padding-left: 30%;
-    padding-right: 40%;
-    font-style: oblique;
-    font-size: 60;
-    width:400px;
-}
-
-#name {
-    padding-left: 30%;
 }
 
 .fa {
@@ -158,6 +145,35 @@ body {
     border-radius: 8px;
     font-size: 20px;
     color: lightblue;
+}
+
+.contactForm {
+    padding-left: 30%;
+}
+
+.nameDataInput {
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    color: lightblue;
+    width: 400px;
+}
+
+.emailDataInput {
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    color: lightblue;
+    width: 400px;
+}
+
+.messageDataInput {
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    color: lightblue;
+    width: 400px;
+    height: 400px;
 }
 
 ::placeholder {

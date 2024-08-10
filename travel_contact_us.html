@@ -25,24 +25,15 @@
     <h1 class="titleDescription">Contact us</h1>
     <form class="contactForm">
         <div>
-            <label for="name">Name</label>
-            <input type="text" class="dataInput" id="name" placeholder="Name"></li>
-            <input type="text" class="dataInput" id="name" name="name" required>
+            <input type="text" class="nameDataInput" required placeholder="Name">
             <br><br>    
         </div>
         <div>
-            <label for="email">Email</label>
-            <input type="email" class="dataInput" id="email" name="email" required>
+            <input type="text" class="emailDataInput" required placeholder="email@exmaple.com">
             <br><br>
         </div>
         <div>
-            <label for="condition">Condition</label>
-            <input type="text" class="dataInput" id="condition" name="condition" required>
-            <br><br>
-        </div>
-        <div>
-            <label for="message">Message</label>
-            <textarea id="message" class="dataInput" name="message" rows="5" required></textarea>
+            <textarea class="messageDataInput" required placeholder="Please write here your message..."></textarea>
             <br><br>
         </div>
         <button type="submit" class= "button" onclick="thankyou()">Submit</button>
