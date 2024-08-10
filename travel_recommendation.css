@@ -52,7 +52,31 @@ body {
     padding-left: 30%;
     padding-right: 40%;
     font-style: oblique;
-    font-size: 60;
+    font-size: 60px;
+}
+
+.description {
+    color: darkblue;
+    padding-left: 30%;
+    padding-right: 40%;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.titleDescriptionAboutUs {
+    color: darkblue;
+    padding-left: 30%;
+    padding-right: 40%;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.descriptionAboutUs {
+    color: darkblue;
+    padding-left: 30%;
+    padding-right: 40%;
+    font-style: oblique;
+    font-size: 17px;
 }
 
 .contactForm {
@@ -64,26 +88,10 @@ body {
     width:400px;
 }
 
-label {
-    text-align:right;
-    padding-right:20px;
-    display:inline-block;
-    min-width:150px;
-}
-
 #name {
     padding-left: 30%;
 }
 
-.description {
-    color: darkblue;
-    padding-left: 30%;
-    padding-right: 40%;
-    font-style: oblique;
-    font-size: 40;
-}
-
-/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -97,21 +105,16 @@ label {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-/* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-/* Twitter */
 .fa-instagram {
     background: lightblue;
     color: white;
@@ -124,12 +127,16 @@ label {
 
 .social_links {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    text-align: center;
+    position: absolute; bottom: 0px; left: 0;
+    width: 100%;
+    /*padding: 0;
+    margin: 0;*/
 }
 
 .social_links li {
     margin-bottom: 10px;
+    display: inline;
 }
 
 .button {
@@ -176,18 +183,22 @@ label {
 .ourTeam {
     padding-left: 30%;
     color: darkblue;
+    font-size: 30px;
+    font-style: oblique;
 }
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 4px 8px 0 lightblue;
+    box-shadow: 0 3px 6px 0 lightblue;
 }
   
   /* Some left and right padding inside the container */
 .container {
     padding: 0 16px;
+    font-style: oblique;
 }
 
 .title {
     color: darkblue;
+    font-style: oblique;
 }
